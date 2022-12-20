@@ -1,0 +1,234 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="{{ shop.locale }}"> <!--<![endif]-->
+<head>
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NSCMCBL');</script>
+<!-- End Google Tag Manager -->
+  
+  {% include 'shop-sheriff-amp' %}
+
+  <!-- ======================= Pipeline Theme V4.7.1 ========================= -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!-- Start Critical CSS in <head> -->
+  {%- if request.page_type == "index" -%}
+    {%- include 'critical-css-index' -%}
+  {%- elsif request.page_type == "product" -%}
+    {%- include 'critical-css-product' -%}
+  {%- elsif request.page_type == "collection" -%}
+    {%- include 'critical-css-collection' -%}
+  {% else %}
+    {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+  {% endif %}
+  <!-- End Critical CSS in <head> -->
+
+  <!-- Title and description ================================================ -->
+  <title>
+  {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+  </title>
+
+  {% if page_description %}
+  <meta name="description" content="{{ page_description | escape }}">
+  {% endif %}
+
+  <!-- Product meta ========================================================= -->
+  {% include 'social-meta-tags' %}
+
+  {% if settings.favicon != blank %}
+    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+  {% endif %}
+
+  <!-- Helpers ============================================================== -->
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_primary }}">
+
+  <!-- Vendor JS ============================================================ -->
+  {{ 'vendor.js' | asset_url | script_tag }}
+
+  <script>
+    var theme = {
+      routes: {
+        product_recommendations_url: '{{ routes.product_recommendations_url }}',
+      },
+      strings: {
+        addToCart: {{ 'products.product.add_to_cart' | t | json }},
+        soldOut: {{ 'products.product.sold_out' | t | json }},
+        unavailable: {{ 'products.product.unavailable' | t | json }},
+        join: {{ 'products.product.join_membership' | t | json }}
+      },
+      info: {
+        name: 'pipeline'
+      },
+      moneyFormat: {{ shop.money_format | json }},
+      version: '4.7.1'
+    }
+  </script>
+
+  {% comment %}
+    If you store has customer accounts disabled, you can remove the following JS file
+  {% endcomment %}
+  {% if template contains 'customers' %}
+    {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
+  {% endif %}
+
+  <!-- Header hook for plugins ============================================== -->
+    {% comment %}
+  {{ content_for_header }}
+  {% endcomment %}
+
+  {{ content_for_header | replace: 's.async = true;', 's.defer = true;' }}
+
+  {% include 'wsg-header' %}
+
+  <!-- Hiding account page from search engines ============================================== -->
+  {% if handle contains 'account' %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+
+{% include 'ufe-offer' %}</head>
+
+<body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" data-animations="{{ settings.animations_enable }}">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSCMCBL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->  
+  
+  <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+  {% section 'header' %}
+
+  <main class="main-content" id="MainContent" role="main">
+    {% if template contains 'wholesale' %}
+      {% if customer %}
+        {% if customer.tags contains 'wholesale' %}
+          {{ content_for_layout }}
+        {% else %}
+          {% include 'wholesale-note' %}
+        {% endif %}
+      {% else %}
+        {% include 'wholesale-note' %}
+      {% endif %}
+    {% else%}
+      {{ content_for_layout }}
+    {% endif %}
+  </main>
+
+  {% section 'footer' %}
+
+  <script id="JsQty" type="text/template">
+  {% raw %}
+    <div class="js-qty">
+      <button type="button" class="js-qty__adjust js-qty__adjust--minus" data-id="{{id}}" data-qty="{{itemMinus}}">&minus;</button>
+      <input type="text" class="js-qty__num QuantityInput" value="{{itemQty}}" min="1" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*" name="{{inputName}}" id="{{inputId}}" data-submit="{{submit}}">
+      <button type="button" class="js-qty__adjust js-qty__adjust--plus" data-id="{{id}}" data-qty="{{itemAdd}}">+</button>
+    </div>
+  {% endraw %}
+  </script>
+  <script id="JsQty--cart" type="text/template">
+  {% raw %}
+    <div class="js-qty">
+      <button type="button" class="js-qty__adjust js-qty__adjust--minus" data-id="{{id}}" data-qty="{{itemMinus}}">&minus;</button>
+      <input type="text" value="{{itemQty}}" class="js-qty__num QuantityInput"  min="1" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*" name="updates[]" id="updates_{{id}}" data-submit="{{submit}}">
+      <button type="button" class="js-qty__adjust js-qty__adjust--plus" data-id="{{id}}" data-qty="{{itemAdd}}">+</button>
+    </div>
+  {% endraw %}
+  </script>
+
+  <script>
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    lazySizesConfig.expand = 300;
+    lazySizesConfig.loadHidden = false;
+  </script>
+
+  <!-- Theme Javascript ============================================================== -->
+  <script defer="defer" src="{{ 'theme.js' | asset_url }}" type="text/javascript"></script>
+
+  <script>
+    {% if newHash %}
+      $(function() {
+        timber.updateHash('{{ newHash }}');
+      });
+    {% endif %}
+    {% if resetPassword %}
+      $(function() {
+        timber.resetPasswordSuccess();
+      });
+    {% endif %}
+  </script>
+
+  <!-- Paste popup code between comments ===================================== -->
+
+  <!-- End popup ================================================== -->
+
+  <!-- HC - Pre-order now added - 24 Jul '19 -->
+  <script>
+    $(document).ready(function() {
+      $('.hc-preorder-buy').click(function() {
+        $('.hc-payment-form button').trigger('click');
+      });
+    });
+  </script>
+
+
+  <!-- Start Critical CSS in <body> -->
+  {%- if request.page_type == "index" or request.page_type == "product" or request.page_type == "collection" -%}
+    <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}" media="print" onload="this.media='all'">
+  {% endif %}
+  <!-- End Critical CSS in <body> -->
+  <script>
+      jQuery(function() {
+        jQuery('.swatch :radio').change(function() {
+          var optionIndex = jQuery(this).closest('.swatch').attr('data-option-index');
+          var optionValue = jQuery(this).val();
+          jQuery(this)
+            .closest('form')
+            .find('.single-option-selector')
+            .eq(optionIndex)
+            .val(optionValue)
+            .trigger('change');
+        });
+      });
+  </script>
+  
+  <!-- HC - Adding Popup - 24 November '20 -->
+  <div id="hcheaderpopup" class="hcheaderpopup" style="display: none;">
+    <div class="hcpopupcontainer">
+      <div class="hcclose">
+        <img src="{{'close.svg' | asset_url}}">
+      </div>
+      {% if settings.heading != blank %}
+      	<h3>{{settings.heading}}</h3>
+      {% endif %}
+      {% if settings.simpletxt != blank %}
+      	{{settings.simpletxt}}
+      {% endif %}
+    </div>
+  </div>
+  
+  <script>
+    $(document).ready(function(){
+      $('.header-message a').click(function(e){
+      	e.preventDefault();
+        $('#hcheaderpopup').show();
+      });
+      
+      $('.hcclose').click(function(e){
+      	e.preventDefault();
+        $('#hcheaderpopup').hide();
+      });
+    });
+  </script>
+</body>
+</html>

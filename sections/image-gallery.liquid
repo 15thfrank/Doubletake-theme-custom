@@ -1,0 +1,63 @@
+<div class="homepage-instagram {{ section.settings.homepage_instagram_color }}" data-section-id="{{ section.id }}" data-section-type="static-instagram">
+  {% unless section.settings.title == '' %}
+    <h4 class="home__subtitle">{{ section.settings.title | escape }}</h4>
+  {% endunless %}
+  <div class="grid-uniform" data-grid="large--one-sixth medium--one-third small--one-half">
+    {% for block in section.blocks %}
+    <a href="{{ block.settings.link }}" target="_blank" style="background-image: url({{ block.settings.image | img_url: '500x' }});" class="grid__item instagram--square large--one-sixth medium--one-third small--one-half">
+      <span class="icon icon-instagram"></span>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Static Instagram",
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Instagram"
+    },
+    {
+      "type": "select",
+      "id": "homepage_instagram_color",
+      "label": "Background color",
+      "default": "homepage--white",
+      "options": [
+        { "value": "homepage--white", "label": "White"},
+        { "value": "homepage--light", "label": "Light"},
+        { "value": "homepage--splash", "label": "Accent"},
+        { "value": "homepage--dark", "label": "Dark"}
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+       	  "label": "Image"
+        },
+        {
+          "id": "link",
+          "type": "url",
+          "label": "Image Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Static Instagram",
+      "category": "Social"
+    }
+  ]
+}
+{% endschema %}

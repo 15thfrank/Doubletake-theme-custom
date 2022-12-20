@@ -1,0 +1,1870 @@
+{
+  "current": {
+    "heading": "FREE SHIPPING | EASY RETURNS",
+    "simpletxt": "<p><strong>FREE SHIPPING<\/strong><\/p><p>We offer free shipping for all orders and typically process them within one business day.<\/p><p><strong>EASY ETURNS<\/strong><\/p><p>If you don&#x27;t fall in love at first sight, just send your bag back for a refund or exchange. <\/p><p>We use a service that makes it super easy and we&#x27;ll even provide you with a printable return shipping label to make it hassle-free.<\/p><p>You can read all the details on our delivery and returns <a href=\"\/pages\/delivery-and-returns\" title=\"Delivery and returns\" target=\"_blank\">page<\/a>.<\/p>",
+    "color_account_bg": "#ffffff",
+    "color_account_text": "#f96a58",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#12284b",
+    "color_body_bg": "#f7f7f7",
+    "color_body_text": "#12284b",
+    "color_primary": "#12284b",
+    "color_splash": "#f96a58",
+    "color_border": "#cccccc",
+    "homepage_background_light": "#fdf4f1",
+    "homepage_background_dark": "#12284b",
+    "product_background_color": "#f7f7f7",
+    "product_slideshow_arrows": "#cccccc",
+    "color_footer_bg": "#f2f2f2",
+    "color_footer_text": "#28487b",
+    "color_footer_social_link": "#12284b",
+    "type_header_font": "montserrat_n9",
+    "type_heading_size": 125,
+    "font_title_capitalize": false,
+    "type_accent_font": "montserrat_n6",
+    "type_accent_size": 115,
+    "type_base_font": "quattrocento_n4",
+    "type_body_size": 110,
+    "animations_enable": true,
+    "cart_type": "modal",
+    "cart_show_on_click": true,
+    "cart_vendor_enable": false,
+    "cart_notes_enable": true,
+    "cart_quantity": true,
+    "cart_show_additional_buttons": true,
+    "cart_continue_browsing": "shopify:\/\/collections\/all",
+    "collection_text_alignment": "text-center",
+    "product_grid_style": "hover",
+    "image_hover_enable": true,
+    "back_in_stock_enable": true,
+    "image_autoheight_enable": true,
+    "product_grid_aspect_ratio": 1,
+    "tag_sellout": false,
+    "tag_sale": false,
+    "tag_new": false,
+    "tag_new_limit": 90,
+    "social_twitter_link": "https:\/\/twitter.com\/shopdoubletake",
+    "social_facebook_link": "https:\/\/www.facebook.com\/shopdoubletake",
+    "social_instagram_link": "https:\/\/www.instagram.com\/shopdoubletake",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/shopdoubletake",
+    "social_google_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_tumblr_link": "",
+    "social_fancy_link": "",
+    "product_social_enable": true,
+    "share_enable_facebook": false,
+    "share_enable_pinterest": false,
+    "share_enable_google": false,
+    "share_enable_twitter": false,
+    "twittercard_handle": "",
+    "social_home_image": "",
+    "favicon": "shopify:\/\/shop_images\/DoubletakeSquare-White-on-Blue-110.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Wordmark_1_5ca9fbaf-b014-4ddd-9155-ebb3ce5e6f47.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Raleway",
+    "checkout_body_font": "Raleway",
+    "checkout_accent_color": "#12284c",
+    "checkout_button_color": "#f96a58",
+    "checkout_error_color": "#f70c0c",
+    "font_title": "google:sansStack:Raleway:400",
+    "font_accent": "google:sansStack:Montserrat:400",
+    "font_body": "google:sansStack:Montserrat:400",
+    "base_font_size": "14px",
+    "checkout_use_header_image": false,
+    "checkout_logo": "",
+    "checkout_use_body_background_image": false,
+    "checkout_use_sidebar_background_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Wordmark_1_5ca9fbaf-b014-4ddd-9155-ebb3ce5e6f47.png",
+          "logo_max_limit": 175,
+          "main_menu_linklist": "main-menu",
+          "header_sticky": "sticky",
+          "transparent_home": false,
+          "transparent_collection": false,
+          "transparent_blog": false,
+          "transparent_article": false,
+          "transparent_page": false,
+          "transparent_text_color": "#ffffff",
+          "header_message": "<p><a href=\"#hcheaderpopup\" title=\"#hcheaderpopup\"><strong>FREE SHIPPING |  EASY RETURNS<\/strong><\/a><\/p>",
+          "header_enable_account": false,
+          "header_enable_search": false,
+          "search_only_products": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1495212481660": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "doubletake"
+            }
+          },
+          "linklist": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "get-in-touch"
+            }
+          },
+          "1594161653496": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "help"
+            }
+          },
+          "1495213131719": {
+            "type": "newsletter",
+            "settings": {
+              "richtext": "<p>Be the first to find out about new styles, plus receive new blog articles and special offers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1495212481660",
+          "linklist",
+          "1594161653496",
+          "1495213131719"
+        ],
+        "settings": {
+          "footer_secondary_linklist": "footer",
+          "footer_payment_enable": false,
+          "footer_social_enable": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "product": {
+        "type": "product",
+        "blocks": {
+          "1603255247009": {
+            "type": "tab_description",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "1603255247009"
+        ],
+        "settings": {
+          "product_breadcrumbs": false,
+          "show_price_above": true,
+          "form_position": "below",
+          "show_quantity": false,
+          "enable_payment_button": false,
+          "product_show_vendor": false,
+          "product_reviews_enable": false,
+          "enable_video_looping": true,
+          "zoom_enable": true,
+          "info_page": "",
+          "tabs_position": "below",
+          "custom_message_label": "<p>Optional: Add handwritten note inside<\/p>",
+          "message_font_size": 14
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "grid_setting_large": 4,
+          "grid_setting_medium": 2,
+          "grid_setting_small": 2,
+          "collection_sorting": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_title_below": true,
+          "show_description": true,
+          "show_description_below": true,
+          "description_font_size": "rte rte--large",
+          "show_image": true,
+          "image_height": "use_screen_two_thirds",
+          "overlay_opacity": 0,
+          "text_color": "homepage--white",
+          "parallax": true,
+          "hide_sidebar": true,
+          "collection_custom_nav_list": "",
+          "collection_standard_nav": false,
+          "collection_tag_nav": false
+        }
+      },
+      "blog": {
+        "type": "blog",
+        "settings": {
+          "layout": "grid",
+          "blog_show_meta": false,
+          "image": "shopify:\/\/shop_images\/WellPlayed.jpg",
+          "overlay_opacity": 30,
+          "text_color": "homepage--white",
+          "parallax": true,
+          "tags": false
+        }
+      },
+      "article": {
+        "type": "article",
+        "settings": {
+          "blog_show_meta": false,
+          "tags": false,
+          "social": true,
+          "image_height": "use_screen_one_third",
+          "parallax": true,
+          "sidebar_tags": false,
+          "recent": true
+        }
+      },
+      "index-product": {
+        "type": "index-product",
+        "settings": {
+          "title": "Featured product",
+          "home_product": "",
+          "homepage_product_color": "homepage--white",
+          "show_quantity": true,
+          "show_price_above": true,
+          "form_position": "below",
+          "enable_payment_button": true,
+          "product_show_vendor": false,
+          "enable_video_looping": true,
+          "zoom_enable": false,
+          "info_page": "",
+          "tabs_position": "below"
+        }
+      },
+      "1493426616703": {
+        "type": "index-double",
+        "blocks": {
+          "1493426616703-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-interior_c291dfc3-6737-46ce-b646-da8b7b68f6ce.jpg",
+              "overlay_opacity": 15,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          },
+          "1493426616703-1": {
+            "type": "text",
+            "settings": {
+              "title": "Function Obsessed",
+              "richtext": "<p>We all love a pretty bag, but at the end of the day it has to work. Doubletake bags are designed by a team that knows the game.<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--white",
+              "link_text": "",
+              "button_style": "btn btn--clear uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "1493426616703-0",
+          "1493426616703-1"
+        ],
+        "settings": {
+          "height": "use_screen_one_third"
+        }
+      },
+      "1493516369723": {
+        "type": "index-double",
+        "blocks": {
+          "1493516369723-1": {
+            "type": "text",
+            "settings": {
+              "title": "A place for everything",
+              "richtext": "<p>Doubletake bags are designed to keep your phone, keys, water bottles, and ball cans in place while providing ample space for racquets and shoes.<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--white",
+              "link_text": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          },
+          "1493516369723-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-Navy-Paris-kaylee.jpg",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--dark",
+              "link_text": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "1493516369723-1",
+          "1493516369723-0"
+        ],
+        "settings": {
+          "height": "use_screen_one_third"
+        }
+      },
+      "list-collections": {
+        "type": "list-collections",
+        "settings": {
+          "display_type": "all",
+          "grid": 3,
+          "rows": 1
+        }
+      },
+      "1556661047118": {
+        "type": "index-collection-grid",
+        "blocks": {
+          "1556661047118-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "all",
+              "title": "",
+              "link_text": "racquet bags",
+              "image": "shopify:\/\/shop_images\/London_d49b3808-9429-4fb3-aded-68bfc2a8efaf.jpg"
+            }
+          },
+          "1557104682998": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "accessories",
+              "title": "",
+              "link_text": "racquet accessories",
+              "image": "shopify:\/\/shop_images\/Accessories-Cover.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1556661047118-0",
+          "1557104682998"
+        ],
+        "settings": {
+          "title": "",
+          "grid": 2,
+          "homepage_collection_grid_color": "homepage--light",
+          "color": "homepage--white",
+          "button_style": "btn btn--outline btn--square uppercase",
+          "overlay_opacity": 0,
+          "height": 420
+        }
+      },
+      "1556838203317": {
+        "type": "index-richtext",
+        "disabled": true,
+        "settings": {
+          "title": "detail-oriented",
+          "home_page_richtext": "<p>When we started designing the perfect racquet bag, we thought of everything.  Our stylish tennis and pickleball bags are made from premium fade resistant materials, and engineered to be sturdy and lightweight.  With brushed aluminum hardware, luxurious straps, and a contrasting pop of color, even the smallest details are noteworthy.<\/p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "1556838217963": {
+        "type": "index-richtext",
+        "disabled": true,
+        "settings": {
+          "title": "A WORD FROM OUR FANS",
+          "home_page_richtext": "<p> &quot;The Doubletake bag was definitely designed by a tennis player who thought about access and organization. It&#x27;s so easy to get my racquets in and out, and the pockets allow me to quickly find everything when I need it<em>&quot; <\/em><\/p><p>-Amy Grenier<\/p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "1556981391592": {
+        "type": "image-gallery",
+        "blocks": {
+          "1556981397285": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-woman-tying-shoe.jpg",
+              "link": "https:\/\/www.instagram.com\/shopdoubletake"
+            }
+          },
+          "1556981600536": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-Tennis-Hawaii-Navy.jpg",
+              "link": "https:\/\/www.instagram.com\/shopdoubletake"
+            }
+          },
+          "1556981614412": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-accessory-bag-lineup.jpg",
+              "link": "https:\/\/www.instagram.com\/shopdoubletake"
+            }
+          },
+          "1556981622133": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Sade-Melbourne-Ivory-600x600.jpg",
+              "link": "https:\/\/www.instagram.com\/shopdoubletake"
+            }
+          },
+          "1599708096307": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-grey-blush-on-court.jpg",
+              "link": "https:\/\/www.instagram.com\/shopdoubletake"
+            }
+          },
+          "91bae1ca-716c-4d6e-b68b-89b653ca2a88": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AmyMelbourne600x600.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1556981397285",
+          "1556981600536",
+          "1556981614412",
+          "1556981622133",
+          "1599708096307",
+          "91bae1ca-716c-4d6e-b68b-89b653ca2a88"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_instagram_color": "homepage--white"
+        }
+      },
+      "page-double1": {
+        "type": "page-double1",
+        "blocks": {
+          "1557585762295": {
+            "type": "text",
+            "settings": {
+              "title": "uncompromising function",
+              "richtext": "<p>We all love a pretty bag, but at the end of the day, it has to work. That&rsquo;s why we set out to create the best tennis and pickleball bags for your life on the go.&nbsp; Doubletake bags are designed for easy gear access, and your small items are always within reach.&nbsp;<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          },
+          "1557585780201": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-grey-blush-on-court.jpg",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1557585762295",
+          "1557585780201"
+        ],
+        "settings": {
+          "height": "use_screen_two_thirds"
+        }
+      },
+      "page-double2": {
+        "type": "page-double2",
+        "blocks": {
+          "1557585801614": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-buckle.jpg",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1557585797051": {
+            "type": "text",
+            "settings": {
+              "title": "THOUGHTFUL ORGANIZATION",
+              "richtext": "<p>Keep it together with a well organized bag.&nbsp; Whether you&rsquo;re traveling light or you&rsquo;re a bring-it-all type, our ingenious designs ensure there&rsquo;s a place for everything.&nbsp; Our women&rsquo;s duffle bags keep the maximalists happy, while the smaller tote and convertible backpack are compact for an easy commute.&nbsp;<\/p>\n<p><\/p>\n<p>Whatever your style, our goal is to get you from point A to point B without missing a beat, so you can get in there, have fun, and stay focused on your game.<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "1557585801614",
+          "1557585797051"
+        ],
+        "settings": {
+          "height": "use_screen_two_thirds"
+        }
+      },
+      "page-images": {
+        "type": "page-images",
+        "blocks": {
+          "1557586059741": {
+            "type": "page_image",
+            "settings": {
+              "block_page": ""
+            }
+          }
+        },
+        "block_order": [
+          "1557586059741"
+        ],
+        "settings": {
+          "parallax": false,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 30,
+          "text_color": "homepage--white"
+        }
+      },
+      "page-newsletter": {
+        "type": "page-newsletter",
+        "settings": {
+          "title": "Keep in touch",
+          "richtext": "<p>Sign up to receive new Well Played scenarios, plus be the first to find out about new styles and special offers.<\/p>\n<p><\/p>\n<p>Don't worry, we won't go crazy and send you a bazillion emails&mdash;we hate that too.<\/p>",
+          "text_align": "text-left",
+          "homepage_bg_color": "homepage--light"
+        }
+      },
+      "page-contact-custom": {
+        "type": "page-contact-custom",
+        "blocks": {
+          "1558283002547": {
+            "type": "email",
+            "settings": {
+              "label": "Your email"
+            }
+          },
+          "1558283007937": {
+            "type": "body",
+            "settings": {
+              "label": "Tell us your scenario"
+            }
+          }
+        },
+        "block_order": [
+          "1558283002547",
+          "1558283007937"
+        ],
+        "settings": {
+          "page_position": "top",
+          "title": "",
+          "enable_captcha": false
+        }
+      },
+      "page-richtext1": {
+        "type": "page-richtext1",
+        "settings": {
+          "title": "more than just a pretty bag",
+          "home_page_richtext": "<p>Our stylish tennis and pickleball bags bring together sleek design and fuss free functionality.<\/p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "page-banner1": {
+        "type": "page-banner1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Doubletake-Tennis-Watermelon_dd74eb12-319e-40a9-8837-b209d77ab204.jpg",
+          "height": "use_screen_two_thirds",
+          "overlay_opacity": 15,
+          "parallax": false,
+          "title": "CREATED BY PLAYERS FOR PLAYERS",
+          "description": "As players ourselves, we went to work refining the common tennis bag, and after years of research and development, the result is something we can be proud of.  Our clean, uncluttered design is spacious without being clunky, and looks sleek without sacrificing function.",
+          "text_align": "text-center",
+          "color": "homepage--white",
+          "link_text": "",
+          "link": "shopify:\/\/collections\/all",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "button_image": ""
+        }
+      },
+      "page-slideshow1": {
+        "type": "page-slideshow1",
+        "blocks": {
+          "1559230350406": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-featuring-melbournes.jpg",
+              "overlay_opacity": 20,
+              "title": "our core values",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "shopify:\/\/pages\/values",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1559230411215": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-Tennis-Navy-Paris-s_521cbfd2-7926-4782-98c2-3e3971dbdbd8.jpg",
+              "overlay_opacity": 5,
+              "title": "Uncompromising functionality",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "shopify:\/\/pages\/functional",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1559230449243": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-paris-turquoise.jpg",
+              "overlay_opacity": 0,
+              "title": "thoughtfully organized",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "shopify:\/\/pages\/organized",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1559230471501": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-ivory-accessory-pouch.jpg",
+              "overlay_opacity": 15,
+              "title": "crafted to last",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "shopify:\/\/pages\/quality",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1559230350406",
+          "1559230411215",
+          "1559230449243",
+          "1559230471501"
+        ],
+        "settings": {
+          "autoplay": true,
+          "autoplay_speed": 4,
+          "height": "use_screen_one_half"
+        }
+      },
+      "page-banner3": {
+        "type": "page-banner3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Doubletake-tennis-grey-blush-london.jpg",
+          "height": "use_screen_one_half",
+          "overlay_opacity": 0,
+          "parallax": false,
+          "title": "Intuitive design",
+          "description": "Utilizing player feedback and <br>intuitive design, we created a line of <br>tennis and pickleball bags that <br>hit the sweet spot.",
+          "text_align": "text-center",
+          "color": "homepage--white",
+          "link_text": "",
+          "link": "shopify:\/\/collections\/all",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "button_image": ""
+        }
+      },
+      "page-double5": {
+        "type": "page-double5",
+        "blocks": {
+          "1558495934989": {
+            "type": "text",
+            "settings": {
+              "title": "easy gear access",
+              "richtext": "<p>Everything you need is at your fingertips.&nbsp; Our streamlined tennis and pickleball bags are designed with the modern player in mind.&nbsp; With a structured interior and just the right amount of storage, your phone, keys, wallet, and water bottles are always within reach.&nbsp;&nbsp;<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          },
+          "1558495959518": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-navy-white-zipper.jpg",
+              "overlay_opacity": 5,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1558495934989",
+          "1558495959518"
+        ],
+        "settings": {
+          "height": "use_screen_one_half"
+        }
+      },
+      "page-double6": {
+        "type": "page-double6",
+        "blocks": {
+          "1558496056193": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-Tennis-Grey-Teal-Backpack-2-s_c8629ab0-644f-4374-8dbd-4413c043b2d9.jpg",
+              "overlay_opacity": 15,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1558496085158": {
+            "type": "text",
+            "settings": {
+              "title": "a place for everything",
+              "richtext": "<p>At Doubletake, we field test our prototypes and nerd out on the details.&nbsp; When it comes to organization, we&rsquo;re proud to admit that we are Type A. Our tennis and pickleball bags feature a large interior section for your shoes and a change of clothes, and a variety of pocket styles keep smaller items from sliding around. With bags that carry up to 4 racquets, you&rsquo;ll be sure to find one that fits your style.<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "1558496056193",
+          "1558496085158"
+        ],
+        "settings": {
+          "height": "use_screen_one_half"
+        }
+      },
+      "page-richtext3": {
+        "type": "page-richtext3",
+        "settings": {
+          "title": "Thoughtfully organized",
+          "home_page_richtext": "<p>From totes to duffles, our tennis and pickleball bags are designed to help you stay organized and stress free.<\/p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "page-slideshow3": {
+        "type": "page-slideshow3",
+        "settings": {
+          "autoplay": false,
+          "autoplay_speed": 8,
+          "height": "use_screen_two_thirds"
+        }
+      },
+      "page-banner2": {
+        "type": "page-banner2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Doubletake-tennis-grey-turquoise-melbourne.jpg",
+          "height": "use_screen_one_half",
+          "overlay_opacity": 20,
+          "parallax": false,
+          "title": "we stand behind our bags",
+          "description": "At Doubletake, we strive to meet every customer’s expectations, and want to ensure that each item we sell meets our exacting standards.  If you have a problem with your purchase, please contact us to request a replacement or refund.",
+          "text_align": "text-center",
+          "color": "homepage--white",
+          "link_text": "",
+          "link": "",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "button_image": ""
+        }
+      },
+      "page-double3": {
+        "type": "page-double3",
+        "blocks": {
+          "1558496620028": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-label.jpg",
+              "overlay_opacity": 10,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1558496698916": {
+            "type": "text",
+            "settings": {
+              "title": "high quality construction",
+              "richtext": "<p>Step up your game with a sleek and sturdy&nbsp; women&rsquo;s tennis or pickleball bag. At Doubletake, we use top of the line materials for flawless performance on and off the court.&nbsp; Our lightweight, durable backpacks, totes, and duffles are made with fade-free, water-resistant fabrics that wipe down easily. The sturdy construction holds up to the wear and tear of daily life, and our premium YKK zippers, high grade aluminum hardware, and lightweight trims add substance without adding bulk. &nbsp;<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "1558496620028",
+          "1558496698916"
+        ],
+        "settings": {
+          "height": "use_screen_two_thirds"
+        }
+      },
+      "page-double4": {
+        "type": "page-double4",
+        "blocks": {
+          "1558496715734": {
+            "type": "text",
+            "settings": {
+              "title": "designed in california",
+              "richtext": "<p><\/p>\n<p>Californians believe in living beautifully, and every Doubletake tennis and pickleball bag reflects our modern, streamlined aesthetic.&nbsp; We gathered insights from players, tastemakers, and our own personal experiences to design our dream bags, and the result is a line of women&rsquo;s tennis and pickleball bags that never compromises quality or style.&nbsp; Our premium racquet bags are minimal and graphic free so your game does the talking.<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          },
+          "1558496762336": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-woman-tying-shoe-2-s_34570584-128a-46b8-9e42-b069afe9723b.jpg",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1558496715734",
+          "1558496762336"
+        ],
+        "settings": {
+          "height": "use_screen_two_thirds"
+        }
+      },
+      "page-richtext2": {
+        "type": "page-richtext2",
+        "settings": {
+          "title": "crafted to last",
+          "home_page_richtext": "<p>Quality you can&nbsp;depend on, right down to the smallest detail.<\/p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "page-video": {
+        "type": "page-video",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Doubletake-Video-Cover.png",
+          "video_link": "https:\/\/youtu.be\/OA4qUutqFjk",
+          "height": "use_screen_two_thirds",
+          "overlay_opacity": 15,
+          "autoplay": false,
+          "show_play": true,
+          "parallax": false,
+          "title": "",
+          "description": "",
+          "text_align": "text-center",
+          "color": "homepage--white",
+          "button_image": ""
+        }
+      },
+      "page-columns": {
+        "type": "page-columns",
+        "blocks": {
+          "1558498357010": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "balance in all things",
+              "text": "<p>Just as our products balance function and style, sport and design, our company seeks balance too. &nbsp;We tackle daily tasks with optimism, and invite moderation and harmony into every part of our lives.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1558498380059": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "player empowerment",
+              "text": "<p>We strive to empower women who play racquet sports, on and off the court. &nbsp;We want you to feel good about your gear, and stay focused on your game. &nbsp;Our bag addresses a player&rsquo;s needs, and hopefully, sparks a little joy.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1558498383426": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "customers are first",
+              "text": "<p>As tennis and pickleball players ourselves, we&rsquo;re always creating with the customer&rsquo;s perspective in mind. We get the game, we love it, and we put that passion into every bag we sell.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1558498385466": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "uncompromising quality",
+              "text": "<p>We work hard to ensure that every Doubletake bag performs at its best and stands up to the challenges of everyday life. &nbsp;Through every phase of the design process, we are hands on, and utilize top quality materials for a bag that is crafted to last.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1558498357010",
+          "1558498380059",
+          "1558498383426",
+          "1558498385466"
+        ],
+        "settings": {
+          "title": "our values",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "page-richtext4": {
+        "type": "page-richtext4",
+        "settings": {
+          "title": "see it in action",
+          "home_page_richtext": "<p>All your gear, perfectly tucked in.<\/p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "page-columns2": {
+        "type": "page-columns2",
+        "blocks": {
+          "1559228442359": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-accessory-bag-lineup.jpg",
+              "title": "values",
+              "text": "<p>Our core values<\/p>",
+              "button_label": "more",
+              "button_link": "shopify:\/\/pages\/values"
+            }
+          },
+          "1559228504040": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-melbourne-grey-turquoise.jpg",
+              "title": "Function",
+              "text": "<p>Uncompromising functionality<\/p>",
+              "button_label": "more",
+              "button_link": "shopify:\/\/pages\/functional"
+            }
+          },
+          "1559228603721": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-green-background.jpg",
+              "title": "Quality",
+              "text": "<p>Crafted to last<\/p>",
+              "button_label": "More",
+              "button_link": "shopify:\/\/pages\/quality"
+            }
+          },
+          "1559228634505": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Doubletake-Tennis-Hawaii-Navy.jpg",
+              "title": "organization",
+              "text": "<p>Thoughtfully organized<\/p>",
+              "button_label": "more",
+              "button_link": "shopify:\/\/pages\/organized"
+            }
+          }
+        },
+        "block_order": [
+          "1559228442359",
+          "1559228504040",
+          "1559228603721",
+          "1559228634505"
+        ],
+        "settings": {
+          "title": "The doubletake brand",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "page-columns3": {
+        "type": "page-columns3",
+        "blocks": {
+          "1559229442564": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "Content Contributor",
+              "text": "<p>If you create tennis-themed content that deserves a wider reach than your platform alone, we'd love to hear from you. We love featuring relevant and inspiring content from like-minded creators.&nbsp;We'll provide credit for your content and a platform that reaches a diverse, tennis obsessed audience.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1592887838968": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "Fan",
+              "text": "<p>If you&rsquo;re obsessed with Doubletake and want to share the love with your friends and family, this is the program for you. When you join our fan program, we'll give you a custom discount code in exchange for regular social media posts that feature your Doubletake bag.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1592887866047": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "Ambassador",
+              "text": "<p>To become a Doubletake Brand Ambassador, you&rsquo;ll need a medium size following, a history of posting tennis-related content, and a knack for authentic marketing. Get a free Doubletake bag and insider perks simply by posting about us on social media and passing the word on to your tennis friends.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1592887884507": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "Influencer",
+              "text": "<p>We&rsquo;re looking for fashion forward, tennis-playing influencers that take pride in their online community. You have a clear brand story, a loyal following, and a history of posting tennis-related content. Connect with us to chat about benefits, requirements, and more.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1559229442564",
+          "1592887838968",
+          "1592887866047",
+          "1592887884507"
+        ],
+        "settings": {
+          "title": "Influencer opportunities",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "page-richtext5": {
+        "type": "page-richtext5",
+        "settings": {
+          "title": "doubletake minimum advertised price",
+          "home_page_richtext": "<p>Paris $125<\/p>\n<p>Melbourne $150<\/p>\n<p>London $180&nbsp;<\/p>\n<p><\/p>\n<p>Doubletake <a href=\"https:\/\/docs.google.com\/document\/d\/1sChO3zqz_A45erfsGboBAHy9T9fODlaIF2pOprBh9uw\/export?format=pdf\" title=\"https:\/\/docs.google.com\/document\/d\/1sChO3zqz_A45erfsGboBAHy9T9fODlaIF2pOprBh9uw\/export?format=pdf\">MAP Policy<\/a><\/p>",
+          "homepage_page_color": "homepage--light"
+        }
+      },
+      "page-faq": {
+        "type": "page-faq",
+        "blocks": {
+          "9f73593e-46ab-4d66-843f-da8c17538b54": {
+            "type": "accordion",
+            "settings": {
+              "title": "Bag selection and features",
+              "accordion_text": "",
+              "title_background_color": "#747576",
+              "title_text_color": "#ffffff",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "9f62f5a4-76bc-4862-a0a1-a39e82209580": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>What are the dimensions of the Paris \/ Melbourne \/ London bag?<\/b>",
+              "accordion_text": "<br>Please see our comparison chart <a href=\"https:\/\/www.shopdoubletake.com\/pages\/comparison\">here<\/a>.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "928ad8e9-80c2-4011-817c-4815535c1951": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>Which bag is right for me?<\/b>",
+              "accordion_text": "<br>It really depends on what you carry and how you want to balance the size of the bag and how tightly you want it packed. <br><br>We have some customers who carry the basics, but I want the option to throw in some extra, so they choose the London.  That same person can easily fit their regular gear into the Melbourne, but on the days they carry more, it will just be packed tighter. We only recommend the Paris as a replacement for a regular tote bag - it has most of the bells and whistles of the other two bags in terms of organization, but it is a really small bag. <br><br>Please see our comparison chart <a href=\"https:\/\/www.shopdoubletake.com\/pages\/comparison\">here<\/a>.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "71106649-c0c8-4029-8654-39ec53d0e574": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>What size water bottle fits in the bags?<\/b>",
+              "accordion_text": "<br>The Paris fits up to a 6\" circumference bottle and the Melbourne fits up to a 10\".",
+              "title_background_color": "#fff",
+              "title_text_color": "#000",
+              "background_color": "#fff",
+              "text_color": "#000"
+            }
+          },
+          "4db0f2fa-41dd-4c67-9d14-3908e025b8f2": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>I'm buying a gift, how do I choose the best bag?<\/b>",
+              "accordion_text": "Tennis bags are wonderful gifts but selecting the perfect bag for someone else can be difficult. A Doubletake gift card is the perfect way to show your thoughtfulness without requiring you to choose the bag style and color.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "1565998945206": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>Are your bags really fade resistant?<\/b>",
+              "accordion_text": "<br>Yes! Doubletake bags are made from high quality materials that have been thoroughly tested. They are extremely fade resistant. They're water resistant too!",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "1599700681284": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>Are your bags machine washable?<\/b>",
+              "accordion_text": "<br>They are! <br><br>Doubletake bags are made from fade and water-resistant fabric which also means they're pretty stain-resistant as well. <br><br>We generally recommend trying a spot cleaner first. We've tested oxi-clean and even clorox kitchen spray and both work well.<br><br>If you need to wash the entire bag, use the gentle cycle and a mesh washer bag so the straps don't become entangled within the machine. Let it air dry.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "9877d15e-86af-4f54-b424-bd77fd0bb6d3": {
+            "type": "accordion",
+            "settings": {
+              "title": "Returns and Exchanges",
+              "accordion_text": "",
+              "title_background_color": "#747576",
+              "title_text_color": "#ffffff",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "949aeae9-f337-403f-bb00-59bf03d3bd75": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>How can I make an exchange or return?<\/b>",
+              "accordion_text": "<br>Please head <a href=\"https:\/\/www.shopdoubletake.com\/returns\">here<\/a>.<br><br>\n\nYou can read our return policy <a href=\"https:\/\/www.shopdoubletake.com\/pages\/delivery-and-returns\">here<\/a>..",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "0c3438ab-c2b9-4903-837a-394b98ca3ced": {
+            "type": "accordion",
+            "settings": {
+              "title": "Orders and Payment",
+              "accordion_text": "",
+              "title_background_color": "#747576",
+              "title_text_color": "#ffffff",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "2223be7f-e0ae-43da-ae2c-0d4ccbcca97b": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>What's the status of my order?<\/b>",
+              "accordion_text": "Once you place an order, you'll receive multiple emails as your order is processed, shipped and out for delivery. <br.>If you've placed an order but didn't see an email, please check your spam folder.<\/br.>",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "1565999222160": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>Do you sell gift cards?<\/b>",
+              "accordion_text": "<br>Yes! See our gift options <a href=\"https:\/\/www.shopdoubletake.com\/collections\/gifts\">here<\/a>.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "72ff34f5-d3b5-43b8-84a3-8b81d0d6978b": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>How do I pay with a gift card?<\/b>",
+              "accordion_text": "Our platform doesn't make it easy, but there is a way to do it. First purchase a Doubletake gift certificate (the emailed version) for the amount of the gift card and then purchase the bag using the Doubletake gift certificate.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "74a3b6de-ad7e-44af-9883-8f18d82a9e97": {
+            "type": "accordion",
+            "settings": {
+              "title": "Shipping",
+              "accordion_text": "",
+              "title_background_color": "#747576",
+              "title_text_color": "#ffffff",
+              "background_color": "#12284b",
+              "text_color": "#12284b"
+            }
+          },
+          "1565999074294": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>What are your shipping options?<\/b>",
+              "accordion_text": "<br>We typically take 1-2 days to process an order and ship ground. We offer multiple options to upgrade.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "1599702326943": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>How quickly do you ship?<\/b>",
+              "accordion_text": "<br>Our standard processing time is 2 business days for orders that come in before 1pm PST.<br><br>You have the option to upgrade when you ship.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          },
+          "1564943094422": {
+            "type": "accordion",
+            "settings": {
+              "title": "<b>Do you ship internationally?<\/b>",
+              "accordion_text": "<br>No, not at this time.",
+              "title_background_color": "#ffffff",
+              "title_text_color": "#000000",
+              "background_color": "#ffffff",
+              "text_color": "#000000"
+            }
+          }
+        },
+        "block_order": [
+          "9f73593e-46ab-4d66-843f-da8c17538b54",
+          "9f62f5a4-76bc-4862-a0a1-a39e82209580",
+          "928ad8e9-80c2-4011-817c-4815535c1951",
+          "71106649-c0c8-4029-8654-39ec53d0e574",
+          "4db0f2fa-41dd-4c67-9d14-3908e025b8f2",
+          "1565998945206",
+          "1599700681284",
+          "9877d15e-86af-4f54-b424-bd77fd0bb6d3",
+          "949aeae9-f337-403f-bb00-59bf03d3bd75",
+          "0c3438ab-c2b9-4903-837a-394b98ca3ced",
+          "2223be7f-e0ae-43da-ae2c-0d4ccbcca97b",
+          "1565999222160",
+          "72ff34f5-d3b5-43b8-84a3-8b81d0d6978b",
+          "74a3b6de-ad7e-44af-9883-8f18d82a9e97",
+          "1565999074294",
+          "1599702326943",
+          "1564943094422"
+        ],
+        "settings": {}
+      },
+      "article-two": {
+        "type": "article-two",
+        "settings": {
+          "blog_show_meta": false,
+          "tags": false,
+          "social": true,
+          "image_height": "use_screen_one_half",
+          "parallax": true,
+          "sidebar_tags": false,
+          "recent": false
+        }
+      },
+      "page-richtext6": {
+        "type": "page-richtext6",
+        "settings": {
+          "title": "",
+          "home_page_richtext": "",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "1588261949259": {
+        "type": "index-custom-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Woman-Carrying-Doubletake-Tennis-Backpack_1.jpg",
+          "height": "use_screen_two_thirds",
+          "overlay_opacity": 20,
+          "parallax": false,
+          "title": "Sport Meets Style",
+          "description": "Gorgeous Yet Functional Tennis and Pickleball Bags",
+          "text_align": "text-left",
+          "color": "homepage--white",
+          "link_text": "shop bags",
+          "link": "shopify:\/\/collections\/all",
+          "button_style": "btn btn--large btn--splash btn--square uppercase"
+        }
+      },
+      "page-banner4": {
+        "type": "page-banner4",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Doubletake-Influencer-green-wall-sxl.jpg",
+          "height": "use_screen_one_half",
+          "overlay_opacity": 0,
+          "parallax": false,
+          "title": "#teamdoubletake",
+          "description": "",
+          "text_align": "text-center",
+          "color": "homepage--white",
+          "link_text": "",
+          "link": "",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "button_image": ""
+        }
+      },
+      "page-double7": {
+        "type": "page-double7",
+        "blocks": {
+          "1592944042861": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-Tennis-Navy-Paris-s_521cbfd2-7926-4782-98c2-3e3971dbdbd8.jpg",
+              "overlay_opacity": 15,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1592944096847": {
+            "type": "text",
+            "settings": {
+              "title": "About Doubletake",
+              "richtext": "<p><span style=\"text-decoration: none;\">Doubletake is an emerging tennis brand focused on providing thoughtfully designed products that combine uncompromising function with modern athletic style. <\/span><\/p>\n<p><span style=\"text-decoration: none;\">We&rsquo;ve created a vibrant community of tennis players and fans and are looking to collaborate with like-minded individuals to increase our exposure and community.<\/span><\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "1592944042861",
+          "1592944096847"
+        ],
+        "settings": {
+          "height": "use_screen_one_half"
+        }
+      },
+      "1599707398840": {
+        "type": "index-icons",
+        "blocks": {
+          "1599707398840-0": {
+            "type": "icon_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Pocket-Icon-Navy.png",
+              "icon_name": "icon-send",
+              "icon_color": "#aaaaaa",
+              "title": "POCKETS FOR EVERYTHING",
+              "text": "<p>Keep it together with special plush pockets for your sunglasses and cell phone.<\/p>"
+            }
+          },
+          "1599707398840-1": {
+            "type": "icon_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Tote-Icon-Navy.png",
+              "icon_name": "icon-shipment",
+              "icon_color": "#aaaaaa",
+              "title": "Three Beautiful Designs",
+              "text": "<p>Whether you keep it simple or bring it all, Doubletake has a bag sized right for you.<\/p>"
+            }
+          },
+          "1599707398840-2": {
+            "type": "icon_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Fabric-Icon-Navy.png",
+              "icon_name": "icon-cart-check",
+              "icon_color": "#aaaaaa",
+              "title": "Fade-Resistant Fabric",
+              "text": "<p>Details matter. Our bags are made from fade and water-resistant fabric.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1599707398840-0",
+          "1599707398840-1",
+          "1599707398840-2"
+        ],
+        "settings": {
+          "title": "",
+          "bg_color": "homepage--white",
+          "icon_size": "icon--large",
+          "icon_alignment": "icon--top",
+          "align_text": "text-center"
+        }
+      },
+      "1599707939308": {
+        "type": "call-to-action",
+        "blocks": {
+          "1599707939308-0": {
+            "type": "select",
+            "settings": {
+              "link": "shopify:\/\/collections\/all",
+              "link_text": "shop bags",
+              "button_style": "btn btn--large btn--splash btn--square uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "1599707939308-0"
+        ],
+        "settings": {
+          "title": "",
+          "cta_bg_color": "homepage--white",
+          "alignment": "text-center",
+          "heading_style": 1,
+          "section_padding": 1
+        }
+      },
+      "page-banner5": {
+        "type": "page-banner5",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Doubletake-tennis-featuring-melbournes.jpg",
+          "height": "use_screen_two_thirds",
+          "overlay_opacity": 15,
+          "parallax": false,
+          "title": "MEET DOubletake",
+          "description": "",
+          "text_align": "text-center",
+          "color": "homepage--white",
+          "link_text": "",
+          "link": "",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "button_image": ""
+        }
+      },
+      "page-richtext7": {
+        "type": "page-richtext7",
+        "settings": {
+          "title": "thekdbsi",
+          "home_page_richtext": "<p>jgiyf<\/p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "page-double8": {
+        "type": "page-double8",
+        "blocks": {
+          "1603316978936": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Doubletake-tennis-bag-sketch-drawing.jpg",
+              "overlay_opacity": 15,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          },
+          "1603317039260": {
+            "type": "text",
+            "settings": {
+              "title": "The Birth of the melbourne bag",
+              "richtext": "<p>The Melbourne bag began with us, Dale and Shawna. Two women who shared a dream of the perfect racquet bag. One with all the right pockets in all the right places, easily accessible by a long zipper that opens wide to avoid the &quot;big black hole&quot; issue. A perfectly functional sport bag balanced with a modern, clean design aesthetic.<\/p><p>Before the Melbourne, that bag didn’t exist. We know. We looked everywhere for it! Even the most expensive bags lacked the quiet ease-of-use and uncluttered design we were looking for. Since we couldn’t find it, we made one ourselves. In 2016, after three years of cutting and taping together prototypes of the ideal racquet bag, we achieved perfection—a bag that tennis and pickleball players are crazy about.<\/p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "1603316978936",
+          "1603317039260"
+        ],
+        "settings": {
+          "height": "use_screen_one_half"
+        }
+      },
+      "page-columns4": {
+        "type": "page-columns4",
+        "blocks": {
+          "1600729593565": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Shawna_Gwen_CEO_Doubletake.jpg",
+              "title": "Shawna Gwin Krasts",
+              "text": "<p>Co-Founder | CEO<\/p>",
+              "button_label": ""
+            }
+          },
+          "1600729625644": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Dale_Breen_Chief_Designer_Doubletake.jpg",
+              "title": "Dale Breen",
+              "text": "<p>Co-Founder | Chief Designer<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1600729593565",
+          "1600729625644"
+        ],
+        "settings": {
+          "title": "the team",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "page-columns5": {
+        "type": "page-columns5",
+        "blocks": {
+          "1600730120712": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Brooklyn_Ingram_Marketing_Director_Doubletake.jpg",
+              "title": "Brooklyn",
+              "text": "<p>Director of Marketing<\/p>",
+              "button_label": ""
+            }
+          },
+          "1600730360295": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Sam_Smith_Doubletake.jpg",
+              "title": "Sam",
+              "text": "<p>Creative Brand Manager<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1600730120712",
+          "1600730360295"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "page-columns6": {
+        "type": "page-columns6",
+        "blocks": {
+          "1603318557335": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Samantha_Storey_Influencer_Manager_Doubletake.jpg",
+              "title": "Sam",
+              "text": "<p>Influencer Manager<\/p>",
+              "button_label": ""
+            }
+          },
+          "1603318590443": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Anya_Podkominer_Content_Manager_Doubletake.jpg",
+              "title": "Anya",
+              "text": "<p>Content Manager <\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1603318557335",
+          "1603318590443"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "page-columns7": {
+        "type": "page-columns7",
+        "blocks": {
+          "1600730176077": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/F21DC1A9-D58B-42EC-B4D1-3188B9E53767_1_105_c.jpeg",
+              "title": "Gina",
+              "text": "<p>Copy Manager<\/p>",
+              "button_label": ""
+            }
+          },
+          "1600898249627": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/21B558F0-B3D4-4224-A38E-7245A043C5FF_1_105_c.jpeg",
+              "title": "Stephanie",
+              "text": "<p>Copywriter<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1600730176077",
+          "1600898249627"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "page-columns8": {
+        "type": "page-columns8",
+        "blocks": {
+          "1600898386260": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Anna_Graphic_Designer_Doubletake.jpg",
+              "title": "Anna",
+              "text": "<p>Graphic Designer <\/p>",
+              "button_label": ""
+            }
+          },
+          "1600729766688": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/TeddyDoubletakeMascot.jpg",
+              "title": "Teddy",
+              "text": "<p>Doubletake Mascot<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1600898386260",
+          "1600729766688"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "related": {
+        "type": "related",
+        "settings": {
+          "related_products_enable": false,
+          "limit": 4,
+          "product_recommendations_heading": "Related products"
+        }
+      },
+      "collection-hc-alternate": {
+        "type": "collection-hc-alternate",
+        "settings": {
+          "grid_setting_large": 4,
+          "grid_setting_medium": 2,
+          "grid_setting_small": 2,
+          "collection_sorting": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_title_below": false,
+          "show_description": true,
+          "show_description_below": true,
+          "description_font_size": "rte rte--large",
+          "show_image": true,
+          "image_height": "use_screen_one_half",
+          "overlay_opacity": 20,
+          "text_color": "homepage--white",
+          "parallax": false,
+          "hide_sidebar": false,
+          "collection_custom_nav_list": "",
+          "collection_standard_nav": false,
+          "collection_tag_nav": false
+        }
+      },
+      "1612279373f632b5a4": {
+        "type": "index-columns",
+        "blocks": {
+          "1612279373f632b5a4-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "",
+              "text": "<p><em>&quot;LOVE this bag! It&#x27;s functional, and I love the way it looks. I get tons of compliments on it!&quot;<\/em><\/p><p>- Davina (Melbourne Backpack)<\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "1612279373f632b5a4-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "",
+              "text": "<p><em>&quot;My quest is over, I finally found the perfect tennis bag! &quot;<\/em><\/p><p>- Nina (London Duffel)<\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "1612279373f632b5a4-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "",
+              "text": "<p><em>&quot;This tote is EXACTLY what I needed - and I always know where everything is.&quot;<\/em><\/p><p>-Diane (Paris Tote)<\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          }
+        },
+        "block_order": [
+          "1612279373f632b5a4-0",
+          "1612279373f632b5a4-1",
+          "1612279373f632b5a4-2"
+        ],
+        "settings": {
+          "title": "A WORD FROM OUR FANS",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "1612281933fa7e4d4b": {
+        "type": "index-columns",
+        "blocks": {
+          "1612281933fa7e4d4b-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Paris-Turquoise-400.jpg",
+              "title": "",
+              "text": "<p>Paris Tote<br\/>$114<\/p>",
+              "button_label": "",
+              "button_link": "shopify:\/\/products\/paris-tote",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "1612281933fa7e4d4b-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Melbourne-Grey-400.jpg",
+              "title": "",
+              "text": "<p>Melbourne Backpack<br\/>$154<\/p>",
+              "button_label": "",
+              "button_link": "shopify:\/\/products\/melbourne-backpack",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "1612281933fa7e4d4b-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Wristlet-Navy-Watermelon-400.jpg",
+              "title": "",
+              "text": "<p>Accessory Wristlet<br\/>$12<\/p>",
+              "button_label": "",
+              "button_link": "shopify:\/\/products\/wristlet",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "11ca4aae-3abf-4ce6-a6c8-5c3ff8ff9a2e": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Swig-Wanderlust-bottle-400.jpg",
+              "title": "",
+              "text": "<p>Water Bottle<br\/>$33<\/p>",
+              "button_label": "",
+              "button_link": "shopify:\/\/products\/swig-water-bottle",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          }
+        },
+        "block_order": [
+          "1612281933fa7e4d4b-0",
+          "1612281933fa7e4d4b-1",
+          "1612281933fa7e4d4b-2",
+          "11ca4aae-3abf-4ce6-a6c8-5c3ff8ff9a2e"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-center"
+        }
+      },
+      "cart": {
+        "type": "cart",
+        "settings": {
+          "enable_ajax": true,
+          "cart_vendor_enable": false,
+          "cart_notes_enable": false,
+          "cart_show_quantity": true,
+          "cart_show_additional_buttons": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1588261949259",
+      "1599707398840",
+      "1556661047118",
+      "1612279373f632b5a4",
+      "1556838217963",
+      "1493516369723",
+      "1493426616703",
+      "1556838203317",
+      "1612281933fa7e4d4b",
+      "1599707939308",
+      "1556981391592"
+    ]
+  }
+}

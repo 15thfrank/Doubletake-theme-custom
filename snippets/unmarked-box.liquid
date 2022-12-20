@@ -1,0 +1,104 @@
+<!-- DO NOT REMOVE THE FOLLOWING COMMENT -->
+<!-- (c) Copyright 2014 Caroline Hill. All Rights Reserved. Contact Mlle Caroline Schnapp at mllegeorgesand@gmail.com -->
+<!-- DO NOT REMOVE THE ABOVE COMMENT -->
+
+{% if linklists.unmarked-box.links.size > 0 and linklists.unmarked-box.links.first.type == 'product_link' %}
+
+  <div id="is-a-gift" style="clear: left; margin: 30px 0" class="clearfix rte">
+    <p>
+      <input type="hidden" name="attributes[unmarked-box]" value="" />
+      <input id="unmarked-box" type="checkbox" name="attributes[unmarked-box]" value="yes" {% if cart.attributes.unmarked-box %} checked="checked"{% endif %} style="float: none" />
+      <label for="unmarked-box" style="display:inline; padding-left: 5px; float: none;">
+      Please send in an unmarked box.
+      </label>
+    </p>
+    <p>
+      <label style="display:block" for="gift-note">Gift message (printed on a gift receipt):</label>
+      <textarea name="attributes[gift-note]" id="gift-note">{{ cart.attributes.gift-note }}</textarea>
+    </p>
+  </div>
+
+{% assign id = linklists.unmarked-box.links.first.object.variants.first.id %}
+
+{% assign gift_wraps_in_cart = 0 %}
+{% for item in cart.items %}
+  {% if item.id == id %}
+    {% assign gift_wraps_in_cart = item.quantity %}
+  {% endif %}
+{% endfor %}
+
+<style>
+  #updates_{{ id }} { display: none; }
+</style>
+
+<script>
+
+Shopify.Cart = Shopify.Cart || {};
+
+Shopify.Cart.GiftWrap = {};
+
+Shopify.Cart.GiftWrap.set = function() {
+  jQuery.ajax({
+    type: 'POST',
+    url: '/cart/update.js', 
+    data: { updates: { {{ id }}: 1 }, attributes: { 'unmarked-box': true } }, 
+    dataType: 'json',
+    success: function() { location.href = '/cart'; }
+  });
+}
+
+Shopify.Cart.GiftWrap.remove = function() {
+  jQuery.ajax({
+    type: 'POST',
+    url: '/cart/update.js', 
+    data: { updates: { {{ id }}: 0 }, attributes: { 'unmarked-box': '' } }, 
+    dataType: 'json',
+    success: function() { location.href = '/cart'; }
+  });
+}
+
+// If we have nothing but unmarked-box items in the cart.
+{% if cart.items.size == 1 and gift_wraps_in_cart > 0 %}
+jQuery(function() {
+  Shopify.Cart.GiftWrap.remove();
+});
+// If we have more than one unmarked-box item in the cart.
+{% elsif gift_wraps_in_cart > 1 %}
+jQuery(function() {
+  Shopify.Cart.GiftWrap.set();
+});
+// If we have a unmarked-box item in the cart but our unmarked-box cart attribute has not been set.
+{% elsif gift_wraps_in_cart > 0 and cart.attributes.unmarked-box == blank  %}
+jQuery(function() {
+  Shopify.Cart.GiftWrap.set();
+});
+// If we have no unmarked-box item in the cart but our unmarked-box cart attribute has been set.
+{% elsif gift_wraps_in_cart == 0 and cart.attributes.unmarked-box != blank  %}
+jQuery(function() {
+  Shopify.Cart.GiftWrap.set();
+});
+{% endif %}
+
+// When the unmarked-box checkbox is checked or unchecked.
+jQuery(function() {
+  jQuery('[name="attributes\[unmarked-box\]"]').change(function() {
+    if (jQuery(this).is(':checked')) {
+      Shopify.Cart.GiftWrap.set();    
+    }
+    else {
+      Shopify.Cart.GiftWrap.remove();
+    }
+  });
+});
+ 
+</script>
+
+{% else %}
+
+<p style="clear: left; margin: 30px 0" class="rte">
+  You attempted to add a unmarked-box script to your shopping cart, but it won't work because you don't have 
+  a link list with handle <code>unmarked-box</code> which, in turn, contains a link
+  to your unmarked-box product. Please review the steps outlined in the tutorial.  
+</p>
+
+{% endif %}
